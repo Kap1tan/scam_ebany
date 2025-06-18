@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен бота (замените на ваш токен)
-BOT_TOKEN = "7630608609:AAFj2KHhwFVXIXeRIO_5oc7WMBMU0UfAWZ0"
+BOT_TOKEN = ""
 
 # Кошелек гаранта (бота) - ЗАМЕНИТЕ НА СВОЙ
 GUARANTOR_WALLET = "UQBcHj1SItr8Pa_TQ1dxhZLCSnI9p9gjnTqPyeAWOzyISmcF"
