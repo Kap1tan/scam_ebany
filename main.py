@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен бота (замените на ваш токен)
-BOT_TOKEN = ""
+BOT_TOKEN = "7630608609:AAFj2KHhwFVXIXeRIO_5oc7WMBMU0UfAWZ0"
 
 # Кошелек гаранта (бота) - ЗАМЕНИТЕ НА СВОЙ
 GUARANTOR_WALLET = "UQBcHj1SItr8Pa_TQ1dxhZLCSnI9p9gjnTqPyeAWOzyISmcF"
@@ -783,7 +783,7 @@ https://t.me/Gift_Elif_Robot?start=ref_{user_id}
                     buyer_payment_method = self.get_user_bank_card(user_id)
                     seller_payment_method = self.get_user_bank_card(seller_id)
                     currency_symbol = '₽'
-                    payment_type = "рублей"
+                    payment_type = "деньги"
 
                 try:
                     seller_notification = f"""✅ Покупатель перевел {payment_type} гаранту!
